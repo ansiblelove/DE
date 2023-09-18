@@ -1,0 +1,13 @@
+---
+- name: Pull list of enabled repos from servers
+  hosts: all
+  gather_facts: true
+
+  tasks:
+    - name: Get enabled repos
+      shell: yum repolist enabled | grep -v "repo id" | awk '{print $1}'
+      register: repos
+
+    - name: Output enabled repos
+      debug:
+        var: repos.stdout_lines
