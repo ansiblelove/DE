@@ -1,0 +1,19 @@
+No.	Task Name	Category	Comment/Location of playbook
+1	P2V	Migration	
+2	Vulnerabilities scan	Automation	
+3	Vulnerabilities remediation	Automation	
+4	Server Entitlement status	Automation	
+5	Password Policy Configurations - Pre-report,Implementation & Post-report.	Automation	
+6	SAR	Automation	
+7	SNMP - Pre-report, Implementation, Post-report	Automation	/opt/ansibuild/snmp-service-fix.yml
+8	SOX - File Permissions & last modified date Report	Automation	
+9	SOX - Capture config files & appending title as per SOX requirement to each file & serverwise segregation.	Automation	
+10	Sudo.log - Pre-report,Implementation & Post-report.	Automation	
+11	Root Password Validation	Automation	
+12	Patching	Automation	/opt/ansibuild/patching
+13	SOX - Save to NFS script	Automation	
+14	SOX - Save to NFS script	Automation	
+15	Collecting SAR reports - For CPU utilization	Automation	
+16	Collecting SAR reports - For Memory utilization	Automation	
+17	SSH-Test.sh	Automation	/opt/ansibuild/ssh-test.sh
+18			
